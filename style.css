@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, #ff0000, #00ff00);
+    color: hotpink; /* Replace with your terrible text color */
+    font-family: 'Comic Sans MS', cursive; /* Use a terrible font */
+}
+
+.sidebar {
+    margin: 0 auto;
+    padding: 30px;
+    background: blue;
+    width: 100px;
+    margin-left:0;
+    height: 300px;
+}
+
+header, footer {
+    background-color:red; /* Replace with your terrible header/footer color */
+    padding: 50px;
+    text-align: center;
+    margin: 0px auto;
+    width:1500px;
+    height: 50px;
+}
+header{
+    margin-top: -10px;
+}
+.product-container {
+    background-color: #ff00ff; 
+    width: 200px;
+    height: 250px;
+    color: #ffcc00; 
+    font-family: 'Comic Sans MS', cursive;
+    border: 5px dashed #00ffff; 
+    border-radius: 20px;
+    text-align: center;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-details {
+    font-size: 18px;
+}
+
+.product-name {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff0000; 
+}
